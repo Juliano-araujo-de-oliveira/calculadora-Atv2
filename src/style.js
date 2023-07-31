@@ -4,7 +4,7 @@ import { StyleSheet} from 'react-native';
 const Styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:"#FF1493"
+    backgroundColor:"#4B0082"
   },
   results: {
     flex: 2,
@@ -19,8 +19,8 @@ const Styles = StyleSheet.create({
     textAlign: "right"
   },
   historyText: {
-    color:"#7c7c7c",
-    fontSize: 1,
+    color:"#FFFAF0",
+    fontSize: 25,
     marginRight: 10,
     alignSelf: 'flex-end',
   },
@@ -33,7 +33,7 @@ const Styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     minWidth: 90,
-    minHeight: 90,
+    minHeight: 110,
     flex: 2,
   },
   textButton: {

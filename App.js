@@ -76,7 +76,7 @@ export default function App() {
 
         {buttons.map((button) =>
           button === '=' ? // Mapeamento do botão =
-            <TouchableOpacity onPress={() => handleInput(button)} key={button} style={[Styles.button, { backgroundColor: '#3dd0e3' }]}>
+            <TouchableOpacity onPress={() => handleInput(button)} key={button} style={[Styles.button, { backgroundColor: '#4B0082' }]}>
               <Text style={[Styles.textButton, { color: "white", fontSize: 30 }]}>{button}</Text>
             </TouchableOpacity>
             : // Mapeamento dos outros botões
