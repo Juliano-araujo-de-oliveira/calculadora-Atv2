@@ -2,6 +2,7 @@ import React from 'react';
 import {useState} from 'react'
 import { StyleSheet, Text, View, TouchableOpacity, Button } from 'react-native';
 
+import {styles} from '../calculadora/src/style';
 export default function App() {
   // Mapeamento de teclas
   const buttons = ['LIMPAR', 'DEL', '%', '/', 7, 8, 9, "x", 6, 5, 4, '-', 3, 2, 1, '+', 0, '.','+/-', '=']
