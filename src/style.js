@@ -1,42 +1,44 @@
 import { StyleSheet} from 'react-native';
 
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-    },
-    results: {
-      flex: 2,
-      justifyContent: "center",
-      backgroundColor: "#f5f5f5"
-    },
-    resultText: {
-      color: "#282F38",
-      fontSize: 32,
-      fontWeight: "bold",
-      padding: 12,
-      textAlign: "right"
-    },
-    historyText:{
-      color:"#7c7c7c",
-      fontSize: 20,
-      marginRight: 10,
-      alignSelf: 'flex-end',
-    },
-    buttons: {
-      flexDirection: 'row',
-      flexWrap: 'wrap',
-    },
-    button: {
-      backgroundColor: 'white',
-      alignItems: 'center',
-      justifyContent: 'center',
-      minWidth: 90, 
-      minHeight: 90,
-      flex: 2,
-    },
-    textButton: {
-      color:"#7c7c7c",
-      fontSize: 20,
-    } 
-  });
-  export {styles}
+// Estilização
+const Styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor:"#FF1493"
+  },
+  results: {
+    flex: 2,
+    justifyContent: "center",
+    backgroundColor: "#4B0082"
+  },
+  resultText: {
+    color: "#FFFAF0",
+    fontSize: 32,
+    fontWeight: "bold",
+    padding: 12,
+    textAlign: "right"
+  },
+  historyText: {
+    color:"#7c7c7c",
+    fontSize: 1,
+    marginRight: 10,
+    alignSelf: 'flex-end',
+  },
+  buttons: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+  },
+  button: {
+    backgroundColor: '#9370DB',
+    alignItems: 'center',
+    justifyContent: 'center',
+    minWidth: 90,
+    minHeight: 90,
+    flex: 2,
+  },
+  textButton: {
+    color: "#FFFAF0",
+    fontSize: 20,
+  }
+});
+export {Styles}
